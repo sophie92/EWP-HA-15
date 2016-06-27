@@ -1,0 +1,29 @@
+{
+   "data": [
+	[
+	"git clone",
+	"git-Repositorium auf die eigene Festplatte klonen",
+	"git clone https://github.com/sophie92/EWP-HA-15.git"
+	],
+	[
+	"git add",
+	"Zwischenspeicherung vorbereiten",
+	"git add ."
+	],
+	[
+	"git commit",
+	"Zwischenspeicherung durchführen",
+	"git commit -m 'text in index.html hinzugefügt'"
+	],
+	[
+	"git push",
+	"Hochladen der veränderten bzw. hinzugefügten Dateien in das zentrale Repositorium",
+	"git push origin master"
+	],
+	[
+	"git pull",
+	"eigenes Arbeitsverzeichnis mit dem zentralen Repositorium synchronisieren",
+	"git pull [options] [<repository> [<refspec>…​]]"
+	]
+]
+}

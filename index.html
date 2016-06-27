@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+ 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.css">
+
     <meta charset="UTF-8">
     <title>EWP HA 15</title>
 </head>
 <body>
 
 <!-- TODO: Erstellen Sie hier die nötigen Inhalte -->
+<h3>git Workflow</h3>	
+	<div>Ich kann ein git-Repositorium auf die eigene Festplatte klonen, indem ich den Befehl <span title="git clone https://github.com/sophie92/EWP-HA-15.git" class="tooltip">"git clone"</span> verwenden. Dann kann ich Dateien in diesem Repositorium verändern oder auch hinzugfügen.
+	Wenn ich nun diese Veränderungen zwischenspeichern möchte, verwende ich zunächst den Befehl <span title="git add ." class="tooltip">"git add"</span>, um eine Zwischenspeicherung vorzubereiten.
+	Dann verwende ich den Befehl <span title="git commit -m 'text in index.html hinzugefügt'" class="tooltip">"git commit"</span>, um die Zwischenspeicherung tatsächlich durchzuführen.
+	Zum Hochladen der veränderten bzw. hinzugefügten Dateien in das zentrale Repositorium, nutze ich den Befehl <span title="git push origin master" class="tooltip">"git push"</span>.
+	Um mein eigenes Arbeitsverzeichnis mit dem zentralen Repositorium zu synchronisieren, verwende ich den Befehl <span title="git pull [options] [<repository> [<refspec>…​]]" class="tooltip">"git pull"</span>.</div>
+
+	<p>
+	<h3>Übersichtstabelle in alphabetischer Reihenfolge</h3>
+	<table id="gitWorkflow">
+        <thead>
+        <tr>
+            <th>Befehl</th>
+            <th>Funktion</th>
+            <th>Beispiel</th>
+        </tr>
+        </thead>
+    </table>
+    </p>
+
+    <a href="https://github.com/sophie92/EWP-HA-15"> <img src="http://code-bude.net/wp-content/uploads/2013/10/1372714624_github_circle_black.png"></a>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
+    <script src="ha15.js"></script>
 
 </body>
 </html>
